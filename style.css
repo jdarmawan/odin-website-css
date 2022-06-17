@@ -18,18 +18,34 @@ a:hover{
     text-decoration:underline;
 }
 
+
 button{
-    padding: 3px 20px;
+    padding: 10px 20px;
     border-radius: 8px;
-    width: 120px;
+    width: auto;
     height: auto;
     background-color: #3882f6;
     color: #F9FAF8;
     font-size: 16px;
+    font-weight: 600;
+}
+
+button#blue-bg{
+    border: 0.02px #093d85 solid;
+}
+
+button#signup{
+    border: 3px solid #F9FAF8;
 }
 
 button:hover{
-    background-color:#679eeb;
+    background-color:#093d85;
+    border: 1px #093d85 solid;
+}
+
+button#signup:hover{
+    background-color: #F9FAF8;
+    color: #3882f6;
 }
 
 .header{
@@ -182,12 +198,5 @@ li{
     padding: 16px;
 }
 
-button#blue-bg{
-    border: #3882f6 solid;
-}
-
-button#signup{
-    border: 3px solid #F9FAF8;
-}
 
 
